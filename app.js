@@ -44,7 +44,6 @@ if (index == 0 || index >= sorteio.length) {
 
 atualizarLista(resultado, [`O nome sorteado é: ${sorteio[index]}`]);
 index++;
-console.log(`O nome sorteado foi ${sorteio[index]}. `);
 
 if (index >= sorteio.length) {
     botaoSortear.disabled = true;
